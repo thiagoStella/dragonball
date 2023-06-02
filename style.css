@@ -1,0 +1,53 @@
+.video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+}
+#video{
+	width: 100%;
+	height: 100%;
+}
+
+
+.b {
+    margin: 100px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+}
+.btn1{
+	animation-name: mover;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+.btn2{
+	animation-name: mover;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.btn3{
+	animation-name: mover;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+
+
+@keyframes mover{
+	0%{
+		transform: translateX(0);
+	}
+	50%{
+		transform: translateX(600px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
